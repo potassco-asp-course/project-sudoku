@@ -55,7 +55,8 @@ def test(enc, inst, timeout, expected, opt):
 
     # check solutions if expected SAT
     if expected == 'SAT':
-        with open(SOLUTIONS+inst,"r") as infile:
+        inst_sol = inst[:-2]+"json"
+        with open(SOLUTIONS+inst_sol,"r") as infile:
             output = json.load(infile)
         ok, ref_solutions = check_result(output, expected)
         for s in ref_solutions:

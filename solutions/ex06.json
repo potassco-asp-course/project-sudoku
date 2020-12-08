@@ -71,25 +71,25 @@
       "sudoku(6,8,4)",
       "sudoku(7,8,1)",
       "sudoku(1,1,1)",
+      "sudoku(1,2,3)",
       "sudoku(2,2,4)",
       "sudoku(3,2,6)",
-      "sudoku(1,2,3)",
       "sudoku(2,1,5)",
       "sudoku(3,1,7)",
-      "sudoku(5,2,5)",
-      "sudoku(4,1,9)",
       "sudoku(4,2,1)",
-      "sudoku(8,8,5)",
-      "sudoku(9,8,2)",
+      "sudoku(4,1,9)",
+      "sudoku(5,2,5)",
+      "sudoku(1,9,5)",
       "sudoku(2,9,9)",
       "sudoku(3,9,4)",
-      "sudoku(1,9,5)",
+      "sudoku(4,9,2)",
       "sudoku(5,9,1)",
       "sudoku(6,9,3)",
-      "sudoku(4,9,2)",
+      "sudoku(8,8,5)",
+      "sudoku(9,8,2)",
+      "sudoku(7,9,6)",
       "sudoku(8,9,8)",
-      "sudoku(9,9,7)",
-      "sudoku(7,9,6)"
+      "sudoku(9,9,7)"
      ]
     }
    ]
@@ -102,10 +102,10 @@
  },
  "Calls": 1,
  "Time": {
-  "Total": 0.01,
+  "Total": 0.012,
   "Solve": 0.0,
   "Model": 0.0,
   "Unsat": 0.0,
-  "CPU": 0.01
+  "CPU": 0.012
  }
 }
