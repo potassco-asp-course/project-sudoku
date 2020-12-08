@@ -6,8 +6,7 @@ import json
 import time
 
 
-#CLINGO = "/usr/share/miniconda/bin/clingo"
-CLINGO = "/home/flaferriere/miniconda3/envs/test/bin/clingo"
+CLINGO = "/usr/share/miniconda/bin/clingo"
 INSTANCES = "instances/"
 REF_ENC = "checker.lp"
 DUMMY = "dummy.lp"
