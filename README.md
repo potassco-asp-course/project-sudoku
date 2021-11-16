@@ -2,7 +2,7 @@
 
 You can find the instructions of the project in the file `sudoku.ipynb`.
 
-To submit your solution, please modify the file [sudoku.lp](asp/sudoku.lp) with your encoding.
+To submit your solution, please modify the file [sudoku.lp](asp/sudoku.lp) of the directory [asp](asp) with your encoding.
 
 Every time you push a new commit, your solution will be tested automatically.
 
