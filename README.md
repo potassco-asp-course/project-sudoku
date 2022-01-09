@@ -5,9 +5,9 @@ You can find the instructions of the project in the file [sudoku.ipynb](sudoku.i
 To submit your solution, please modify the file [sudoku.lp](asp/sudoku.lp) of the directory [asp](asp) with your encoding.
 
 Every time you push a new commit, your solution will be tested automatically.
-The timeout per instance is `180` seconds, and
+The timeout per instance is `100` seconds, and
 the actual command call for the test is:
-* ``python3.6 asp/test.py -e asp/seeknumbers.lp -t 180``
+* ``python3.6 asp/test.py -e asp/sudoku.lp -t 100``
 
 You can specify the location of the instances, solutions and clingo with options `-i`, `-s` and `-c` respectively.
 
