@@ -7,9 +7,9 @@ To submit your solution, please modify the file [sudoku.lp](asp/sudoku.lp) of th
 Every time you push a new commit, your solution will be tested automatically.
 The timeout per instance is `100` seconds, and
 the actual command call for the test is:
-* ``python3.6 asp/test.py -e asp/sudoku.lp -t 100``
+* ``python3.6 asp/test.py -e asp/sudoku.lp -i asp/instances -s asp/solutions -t 100``
 
-You can specify the location of the instances, solutions and clingo with options `-i`, `-s` and `-c` respectively.
+For help, type `python3.6 asp/test.py --help`.
 
 After a few minutes you will be able to see the result of the test in the **Actions** tab.
 You can get more information about the result of the test by clicking successively on:
