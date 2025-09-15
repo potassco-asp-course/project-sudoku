@@ -14,4 +14,4 @@ For help, type `python asp/test.py --help`.
 The script was developed for Python 3.8.
 
 After the tests are run, you will be able to see the results in the Actions tab:
-* Select one of the tests, click in run-autograding-tests and go to the tab "Print output"
+* Select one of the tests, click in "run-autograding-tests" and go to the tab "Print output"
